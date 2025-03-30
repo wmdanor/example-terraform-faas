@@ -32,7 +32,7 @@ apply:## Apply previously created plan
 
 
 .PHONY: destroy
-destroy:## Destroy created infrastructure
+destroy: init## Destroy created infrastructure
 	terraform destroy -input=false $(tf_plan_args) $(ARGS)
 
 

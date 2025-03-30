@@ -1,9 +1,7 @@
-name: PR App - AWS Lambdas
+name: CI App - AWS Lambdas
 
 on:
     workflow_dispatch:
-    pull_request:
-        paths: aws-lambda/app/*
 
 jobs:
     test:
