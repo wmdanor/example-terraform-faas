@@ -1,4 +1,4 @@
-name: CI App - AWS Lambdas
+name: AWS Lambda - CI App
 
 on:
     workflow_dispatch:

@@ -1,4 +1,4 @@
-name: CI Infrastructure - AWS Lambdas
+name: AWS Lambda - CI Infrastructure
 
 permissions:
     contents: read
